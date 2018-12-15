@@ -22,7 +22,7 @@ public class DruidConfiguration {
 	/**
 	 * 初始化DruidDataSource对象
 	 * @ConfigurationProperties(prefix="spring.datasource"),会根据我们在application中设置的该前缀注入值
-	 * @return
+	 * @returna
 	 */
 	@Bean
 	@ConfigurationProperties(prefix="spring.datasource")
